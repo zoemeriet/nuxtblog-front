@@ -1,0 +1,23 @@
+$fontContent: 'Roboto', sans-serif;
+$fontHeadline: 'Work Sans', sans-serif;
+
+// Font weight
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$blackWeight: 900;
+
+// FONT STYLES
+
+* {
+  font-family: $fontContent;
+}
+
+h1,
+.h1 {
+  color: $primary;
+  font-size: 44px;
+  font-family: $fontHeadline;
+  font-weight: $blackWeight;
+}
